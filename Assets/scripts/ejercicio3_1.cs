@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio2_7 : MonoBehaviour
+public class ejercicio3_1 : MonoBehaviour
 {
-    int oro;
-    int oroxSeg = 7;
+    [SerializeField] int numero1;
+    [SerializeField] int numero2;
     // Start is called before the first frame update
     void Start()
     {
-        oro = oroxSeg * 14400;
-        Debug.Log("El oro total es: " +  oro);
+        Debug.Log("El primer numero es: " + numero1);
+        Debug.Log("El segundo numero es: " + numero2);
     }
 
     // Update is called once per frame

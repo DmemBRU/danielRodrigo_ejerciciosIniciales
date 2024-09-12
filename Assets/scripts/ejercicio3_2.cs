@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio2_7 : MonoBehaviour
+public class ejercicio3_2 : MonoBehaviour
 {
-    int oro;
-    int oroxSeg = 7;
     // Start is called before the first frame update
     void Start()
     {
-        oro = oroxSeg * 14400;
-        Debug.Log("El oro total es: " +  oro);
+        
     }
 
     // Update is called once per frame
