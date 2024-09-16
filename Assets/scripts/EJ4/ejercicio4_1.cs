@@ -8,11 +8,11 @@ public class ejercicio4_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        circulo(5);
+        Circulo(5f);
         Debug.Log("El area del circulo es " + area);
-        triangulo(5, 8);
+        Triangulo(5, 8);
         Debug.Log("El area del circulo es " + area);
-        cuadrado(5);
+        Cuadrado(5);
         Debug.Log("El area del circulo es " + area);
     }
 
@@ -21,16 +21,16 @@ public class ejercicio4_1 : MonoBehaviour
     {
         
     }
-    void circulo(int radio) 
+    void Circulo(float radio) 
     {
-        area = (radio ^ 2)* 3.14f;
+        area = (radio * radio)* 3.14f;
     } 
-    void triangulo(int altura, int basse) 
+    void Triangulo(int altura, int basse) 
     {
         area = (altura * basse) / 2;
     
     }
-    void cuadrado(int lado) 
+    void Cuadrado(int lado) 
     {
         area = lado*lado;
     }
