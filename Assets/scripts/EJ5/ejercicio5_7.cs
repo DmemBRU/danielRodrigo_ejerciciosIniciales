@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio3_2 : MonoBehaviour
+public class ejercicio5_7 : MonoBehaviour
 {
-    [SerializeField] string nombre;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Bienvenido de nuevo " + nombre);
+        
     }
 
     // Update is called once per frame
