@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio5_7 : MonoBehaviour
+public class ejercicio5_8 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
